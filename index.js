@@ -21,6 +21,7 @@ fetch('https://jsonplaceholder.typicode.com/users').
      address = document.createTextNode(data[i].address.street + " ," + data[i].address.suite + "," + data[i].address.city + "," + data[i].address.zipcode +"," +  data[i].address.geo.lat + "," +  data[i].address.geo.lng)
      var company = new Array();
      company = document.createTextNode(data[i].company.bs + " ," + data[i].company.catchPhrase + "," + data[i].company.name);
+
       
       node.appendChild(namenode);
       node.appendChild(document.createElement("br"));
